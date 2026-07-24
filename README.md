@@ -1,27 +1,27 @@
-# CV Exam Practice
+# 计算机视觉机试练习项目
 
-This repository contains computer vision practice projects based on anonymized exam-style tasks from an unnamed university.
+本仓库整理了一组脱敏后的计算机视觉机试练习代码。项目来源只保留为“某高校练习任务”，不包含原始题面、课程材料、学校信息、教学人员信息或原始数据。
 
-Original task statements, datasets, generated videos, and large Gaussian/PLY files are not included.  The repository focuses on reusable code structure, data inspection, camera conversion, background Gaussian filtering/fusion, and lightweight rendering workflows.
+仓库重点保留可复用的工程流程：数据结构检查、相机参数转换、前景 mask 过滤、背景 Gaussian 融合、轻量级视频渲染等。
 
-## Projects
+## 项目目录
 
-- `problem1_gaussian_splatting`: per-frame 3D Gaussian data inspection, mask-guided background fusion, COLMAP camera conversion, and MP4 rendering.
-- `problem2_placeholder`: reserved for the second task.
+- `problem1_gaussian_splatting`：第一题，围绕逐帧 3D Gaussian 数据、COLMAP 相机、人物 mask、背景融合和视频渲染展开。
+- `problem2_placeholder`：第二题预留目录，后续可继续补充。
 
-## Repository Policy
+## 开源说明
 
-This public version intentionally excludes:
+本公开版本刻意不包含：
 
-- original exam PDFs or course materials
-- raw datasets
-- generated `.pt`, `.ply`, `.mp4`, `.npz`, and frame images
-- school, teacher, or course-identifying information
+- 原始题目 PDF 或课程资料
+- 原始数据集
+- 生成的 `.pt`、`.ply`、`.mp4`、`.npz` 和帧图片
+- 任何可以指向具体学校、教学人员或课程的信息
 
-## Setup
+## 环境安装
 
 ```bash
 pip install -r requirements.txt
 ```
 
-See each problem folder for its own data layout and usage notes.
+每个题目的数据目录和运行方式见对应子目录的 README。

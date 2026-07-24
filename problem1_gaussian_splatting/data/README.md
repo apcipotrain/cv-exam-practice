@@ -1,5 +1,5 @@
-# Data Directory
+# 数据目录
 
-Put private input data in `data/input/`.
+请把本地私有输入数据放到 `data/input/`。
 
-The `data/input/` folder is ignored by Git and should not be committed.
+`data/input/` 已被 Git 忽略，不应该提交到公开仓库。

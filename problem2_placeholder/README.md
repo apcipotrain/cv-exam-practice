@@ -1,5 +1,5 @@
-# Problem 2
+# 第二题
 
-Reserved for the second computer vision practice task.
+这里是第二个计算机视觉练习任务的预留目录。
 
-Add scripts and anonymized notes here after the second task is implemented.
+第二题完成后，可以在这里加入对应脚本和脱敏说明。
