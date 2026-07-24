@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+
+# Private task materials and local datasets
+*.pdf
+*AI*.txt
+data/input/
+*/data/input/
+
+# Heavy/generated outputs
+outputs/
+*/outputs/*
+!*/outputs/README.md
+*.pt
+*.ply
+*.mp4
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.DS_Store
