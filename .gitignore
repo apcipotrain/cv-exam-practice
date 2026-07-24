@@ -17,6 +17,7 @@ outputs/
 *.pt
 *.ply
 *.mp4
+!problem2_open_3d_campus/deliverables/video.mp4
 *.npz
 *.png
 *.jpg
